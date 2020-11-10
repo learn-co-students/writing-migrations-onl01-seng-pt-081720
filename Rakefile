@@ -1,6 +1,8 @@
 require 'active_record'
 include ActiveRecord::Tasks
 
+
+
 DatabaseTasks.db_dir = 'db'
 DatabaseTasks.migrations_paths = ['db/migrate']
 
